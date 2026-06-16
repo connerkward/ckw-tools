@@ -33,7 +33,7 @@
       }
     },
     {
-      "name": "screenstudio-alternative",
+      "name": "screenstudio-alt",
       "description": "Open-source headless Screen Studio alternative: auto-zoom, idle speed-up, vertical export.",
       "source": {
         "source": "github",
