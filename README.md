@@ -7,7 +7,7 @@ A Claude Code **plugin marketplace** of skills by Conner K. Ward, built around t
 
 ```
 /plugin marketplace add connerkward/connerkward-skills
-/plugin install lookdev@connerkward-skills
+/plugin install lookdev@connerkward
 ```
 
 ## Skills
