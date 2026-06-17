@@ -48,6 +48,12 @@ centroid (◉) off the frame's optical center (✛); the readout shows the exact
 
 ![deterministic-design: an interactive frame where weighted blobs pull a measured centroid dot away from the optical-center target, with a numeric balance-offset readout](https://raw.githubusercontent.com/connerkward/deterministic-design-skill/main/docs/balance-explorable.png)
 
+### screenstudio-alternative — headless Screen Studio pipeline
+Auto speed-up of idle, auto-zoom on click clusters, keystroke overlays, a smoothed synthetic
+cursor, and 9:16 vertical export — all from the CLI, no GUI, no subscription. [repo](https://github.com/connerkward/screenstudio-alternative-skill)
+
+![screenstudio-alternative pipeline demo](https://raw.githubusercontent.com/connerkward/screenstudio-alternative-skill/main/docs/demo.gif)
+
 ### lookdev-auto — a vision model rates rendered variants in a loop
 N labeled variants render into one contact sheet (params burned on each cell), a vision model
 scores them and suggests new values, and the best is applied — the eye is automated, you run the
@@ -55,22 +61,17 @@ loop. [repo](https://github.com/connerkward/lookdev-auto-skill)
 
 ![lookdev-auto labeled variant contact sheet](https://raw.githubusercontent.com/connerkward/lookdev-auto-skill/main/docs/contact-sheet.png)
 
-### screenstudio-alternative — headless Screen Studio pipeline
-Auto speed-up of idle, auto-zoom on click clusters, keystroke overlays, a smoothed synthetic
-cursor, and 9:16 vertical export — all from the CLI, no GUI, no subscription. [repo](https://github.com/connerkward/screenstudio-alternative-skill)
-
-![screenstudio-alternative pipeline demo](https://raw.githubusercontent.com/connerkward/screenstudio-alternative-skill/main/docs/demo.gif)
-
 ### macos-screen-recorder — CLI capture with system audio, no driver
 Records the main display plus system audio via ScreenCaptureKit — the one gap QuickTime and
 `screencapture -v` can't fill without a loopback driver. No BlackHole, no sudo, one Swift binary. [repo](https://github.com/connerkward/macos-screen-recorder-system-audio)
 
 ![macos-screen-recorder CLI usage](https://raw.githubusercontent.com/connerkward/macos-screen-recorder-system-audio/main/docs/usage.png)
 
-### web-media-getter — one query across free media APIs
-One search fans out across free image/video/GIF providers (stock, archival, and GIF engines) and
-returns license-tagged results with attribution — the retrieval peer to local search and generation. [repo](https://github.com/connerkward/web-media-getter-skill)
+### web-media-getter — one query, fanned out across free media sources
+A single search hits openverse, wikimedia, internet archive, the Library of Congress, NASA (and,
+with free keys, Pexels / Pixabay / GIF engines) in parallel, returning a normalized, license-tagged
+result list with attribution — the retrieval peer to local search and generation. [repo](https://github.com/connerkward/web-media-getter-skill)
 
-![web-media-getter example output](https://raw.githubusercontent.com/connerkward/web-media-getter-skill/main/docs/example-output.png)
+![web-media-getter: one apollo-moon-landing query returning results badged by source — internet archive, openverse, wikimedia, loc, nasa](https://raw.githubusercontent.com/connerkward/web-media-getter-skill/main/docs/example-output.png)
 
 MIT © Conner K Ward
