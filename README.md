@@ -33,6 +33,7 @@ The marketplace name stays `connerkward`, so installs are `<name>@connerkward`.
 | **lookdev-auto** | Automated vision-judged tuning loop | [lookdev-auto-skill](https://github.com/connerkward/lookdev-auto-skill) |
 | **apple-notes** | MCP server: semantic search + connection-discovery across your own Apple Notes | [mcp-apple-notes](https://github.com/connerkward/mcp-apple-notes) |
 | **muser** | Local-first semantic image search by description — on-device CLIP/SigLIP + LanceDB; CLI + MCP gallery | [Muser](https://github.com/connerkward/Muser) |
+| **skeuo** | MCP server: turn a sentence into a real, *working* skeuomorphic music-player skin — switches flip, knobs turn, faders slide. Bundles the skill + an inline Create/preview ext-app | [skeuo-mcp](https://github.com/connerkward/skeuo-mcp) |
 
 ## Previews
 
@@ -92,5 +93,15 @@ a plugin *and* registers the MCP server in one step. [repo](https://github.com/c
 Local-first semantic image search: index folders of images, then query them in natural language ("sunset over water", "a login screen with a blue button"). On-device SigLIP/CLIP embeddings + LanceDB — fully offline, no API keys. Ships as a CLI, an MCP server with an interactive results gallery, and a skill. [repo](https://github.com/connerkward/Muser)
 
 ![muser: live demo — typing "sunset over water" then "iridescent abstract gradient", each returning a ranked on-device semantic-search grid](https://raw.githubusercontent.com/connerkward/Muser/main/docs/demo.gif)
+
+### skeuo — a sentence becomes a real, working skeuomorphic skin
+Say *"a fanged anglerfish jaw"* and get back a finished music-player: a body shaped like that jaw,
+with genuinely working hardware — switches that flip, knobs that turn, faders that slide — composited
+live over a WebAudio engine. The prompt is the device's *silhouette*; the controls come from a chosen
+variant, aligned true by construction (drawn inside the painted mask, never detected or repaired).
+Installs as a plugin *and* registers the MCP server, bundling the `skeuo-skin-generator` skill and an
+inline Create/preview ext-app. [repo](https://github.com/connerkward/skeuo-mcp) · [live demo](https://skeuo-ui.pages.dev)
+
+![skeuo: four skeuomorphic music-player skins with working switches, knobs, and faders generated from one-sentence prompts](https://skeuo-ui.pages.dev/og.png)
 
 MIT © Conner K Ward
