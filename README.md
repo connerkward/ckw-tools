@@ -42,11 +42,11 @@ visualizer. You drag, it re-renders — you never guess a number. [repo](https:/
 ![lookdev: bas-relief XPS extrusion studio rendering a depth map into a 3D relief, with a full control panel and ViewCube](https://raw.githubusercontent.com/connerkward/lookdev-studio-skill/main/docs/lookdev.png)
 
 ### deterministic-design — render the UI and *measure* it
-The thesis figure: balance is a measurable quantity, not a vibe. Placed weights pull a computed
-centroid (◉) off the frame's optical center (✛); the readout shows the exact offset. The model
-*measures* the layout instead of asking an LLM to eyeball it. [repo](https://github.com/connerkward/deterministic-design-skill)
+The thesis: balance is a measurable quantity, not a vibe. A layout balances like a see-saw — ink
+weight × distance from center — so the model can *measure* the moment instead of asking an LLM to
+eyeball it. (Preview placeholder; an animated example is in review.) [repo](https://github.com/connerkward/deterministic-design-skill)
 
-![deterministic-design: an interactive frame where weighted blobs pull a measured centroid dot away from the optical-center target, with a numeric balance-offset readout](https://raw.githubusercontent.com/connerkward/deterministic-design-skill/main/docs/balance-explorable.png)
+![deterministic-design: a see-saw showing layout balance as a physical moment — a portrait and a text column balanced on a fulcrum](https://raw.githubusercontent.com/connerkward/deterministic-design-skill/main/docs/balance-explorable.png)
 
 ### screenstudio-alternative — headless Screen Studio pipeline
 Auto speed-up of idle, auto-zoom on click clusters, keystroke overlays, a smoothed synthetic
