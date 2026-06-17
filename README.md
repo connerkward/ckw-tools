@@ -32,6 +32,7 @@ The marketplace name stays `connerkward`, so installs are `<name>@connerkward`.
 | **macos-screen-recorder** | macOS screen recording with system audio (CLI) | [macos-screen-recorder-system-audio](https://github.com/connerkward/macos-screen-recorder-system-audio) |
 | **lookdev-auto** | Automated vision-judged tuning loop | [lookdev-auto-skill](https://github.com/connerkward/lookdev-auto-skill) |
 | **apple-notes** | MCP server: semantic search + connection-discovery across your own Apple Notes | [mcp-apple-notes](https://github.com/connerkward/mcp-apple-notes) |
+| **muser** | Local-first semantic image search by description — on-device CLIP/SigLIP + LanceDB; CLI + MCP gallery | [Muser](https://github.com/connerkward/Muser) |
 
 ## Previews
 
