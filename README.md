@@ -1,28 +1,28 @@
-![ckw-skills — a Claude Code plugin marketplace of human-in-the-loop studios and deterministic design tooling by Conner K. Ward](https://raw.githubusercontent.com/connerkward/ckw-skills/main/docs/banner.png)
+![ckw-tools — a Claude Code plugin marketplace of human-in-the-loop studios, deterministic design tooling, and MCP servers by Conner K. Ward](https://raw.githubusercontent.com/connerkward/ckw-tools/main/docs/banner.png)
 
-# ckw-skills
+# ckw-tools
 
-A Claude Code **plugin marketplace** of skills by Conner K. Ward, built around two
-ideas: **human-in-the-loop** generative studios and **determinism over AI
-randomness**.
+A Claude Code **plugin marketplace** of tools by Conner K. Ward — skills **and**
+MCP servers — built around three ideas: **human-in-the-loop** generative studios,
+**determinism over AI randomness**, and **traversing your own mass of data**.
 
-This repo is an *index*, not the skills themselves — it ships a single
+This repo is an *index*, not the tools themselves — it ships a single
 [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) manifest that
-the `/plugin marketplace add` command reads to resolve and install each skill from
+the `/plugin marketplace add` command reads to resolve and install each tool from
 its own repo (linked below).
 
 ## Install
 
 ```
-/plugin marketplace add connerkward/ckw-skills
+/plugin marketplace add connerkward/ckw-tools
 /plugin install lookdev@connerkward
 ```
 
-The marketplace name stays `connerkward`, so installs are `<skill>@connerkward`.
+The marketplace name stays `connerkward`, so installs are `<tool>@connerkward`.
 
-## Skills
+## Tools
 
-| Skill | What it is | Repo |
+| Tool | What it is | Repo |
 |---|---|---|
 | **lookdev** | Human-in-the-loop web studio to tune AI output by eye | [lookdev-studio-skill](https://github.com/connerkward/lookdev-studio-skill) |
 | **deterministic-design** | Render + *measure* your UI (layout audit + vision-judged usability) | [deterministic-design-skill](https://github.com/connerkward/deterministic-design-skill) |
@@ -31,6 +31,7 @@ The marketplace name stays `connerkward`, so installs are `<skill>@connerkward`.
 | **web-media-getter** | One query across free image/video/GIF APIs | [web-media-getter-skill](https://github.com/connerkward/web-media-getter-skill) |
 | **macos-screen-recorder** | macOS screen recording with system audio (CLI) | [macos-screen-recorder-system-audio](https://github.com/connerkward/macos-screen-recorder-system-audio) |
 | **lookdev-auto** | Automated vision-judged tuning loop | [lookdev-auto-skill](https://github.com/connerkward/lookdev-auto-skill) |
+| **apple-notes** | MCP server: semantic search + connection-discovery across your own Apple Notes | [mcp-apple-notes](https://github.com/connerkward/mcp-apple-notes) |
 
 ## Previews
 
@@ -76,5 +77,14 @@ returning a normalized, license-tagged result list with attribution. The retriev
 search and generation. [repo](https://github.com/connerkward/web-media-getter-skill)
 
 ![web-media-getter: one apollo-moon-landing query returning results badged by source — internet archive, openverse, wikimedia, loc, nasa](https://raw.githubusercontent.com/connerkward/web-media-getter-skill/main/docs/example-output.png)
+
+### apple-notes — search and connect your own corpus of notes
+An MCP server that turns your Apple Notes into a searchable, traversable corpus: hybrid
+semantic + keyword search, Swanson-ABC **bridges** (non-obvious A↔C links via a shared note),
+entity threads, related-notes, and cited **synthesis** over everything you've written. Search,
+embeddings, and bridges run on-device; only synthesis calls an LLM (local or cloud). Installs as
+a plugin *and* registers the MCP server in one step. [repo](https://github.com/connerkward/mcp-apple-notes)
+
+![mcp-apple-notes: semantic search over Apple Notes with hybrid ranking and connection-discovery](https://raw.githubusercontent.com/connerkward/mcp-apple-notes/main/images/demo.png)
 
 MIT © Conner K Ward

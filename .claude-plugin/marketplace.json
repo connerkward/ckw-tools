@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
   "name": "connerkward",
-  "description": "Conner K. Ward's Claude Code skills \u2014 human-in-the-loop studios and deterministic design tooling.",
+  "description": "Conner K. Ward's Claude Code tools \u2014 human-in-the-loop studios, deterministic design tooling, and MCP servers.",
   "owner": {
     "name": "Conner K Ward",
     "url": "https://github.com/connerkward"
@@ -62,6 +62,14 @@
       "source": {
         "source": "github",
         "repo": "connerkward/lookdev-auto-skill"
+      }
+    },
+    {
+      "name": "apple-notes",
+      "description": "MCP server for semantic search and connection-discovery across your own Apple Notes — hybrid search, Swanson-ABC bridges, entity threads, and cited synthesis over everything you've written.",
+      "source": {
+        "source": "github",
+        "repo": "connerkward/mcp-apple-notes"
       }
     }
   ]
