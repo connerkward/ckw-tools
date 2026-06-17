@@ -1,0 +1,22 @@
+# ckw-skills
+
+> ckw-skills is Conner K. Ward's Claude Code plugin marketplace of skills and MCP servers — human-in-the-loop studios, deterministic design tooling, and personal-data search.
+
+## Install (Claude Code)
+- Add the marketplace: `/plugin marketplace add connerkward/ckw-skills`
+- Install any plugin: `/plugin install <name>@connerkward` (e.g. `lookdev`, `deterministic-design`, `ckw-design`, `screenstudio-alt`, `web-media-getter`, `macos-screen-recorder`, `lookdev-auto`, `apple-notes`, `muser`, `skeuo`)
+
+## Plugins
+- lookdev — a human-in-the-loop web studio to tune AI-generated output by eye: https://github.com/connerkward/lookdev-studio-skill
+- deterministic-design — render the UI and prove it's balanced + usable (layout audit + vision-judged usability): https://github.com/connerkward/deterministic-design-skill
+- ckw-design — Conner K. Ward's frontend design skill (direction, design system, visual philosophy): https://github.com/connerkward/ckw-design-skill
+- screenstudio-alt — open-source headless Screen Studio alternative (auto-zoom, idle speed-up, vertical export): https://github.com/connerkward/screenstudio-alternative-skill
+- web-media-getter — one query across free image/video/GIF APIs, license-tagged results: https://github.com/connerkward/web-media-getter-skill
+- macos-screen-recorder — macOS screen recorder with system audio via ScreenCaptureKit, CLI, no driver: https://github.com/connerkward/macos-screen-recorder-system-audio
+- lookdev-auto — automated visual tuning: a vision model rates rendered variants in a loop: https://github.com/connerkward/lookdev-auto-skill
+- apple-notes — MCP server for semantic search and connection-discovery across your own Apple Notes: https://github.com/connerkward/mcp-apple-notes
+- muser — local-first semantic image search (on-device CLIP/SigLIP + LanceDB): https://github.com/connerkward/Muser
+- skeuo — MCP server that turns a sentence into a working skeuomorphic music-player skin: https://github.com/connerkward/skeuo-mcp
+
+## Optional
+- Author: Conner K. Ward — https://github.com/connerkward
