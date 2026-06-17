@@ -35,39 +35,41 @@ The marketplace name stays `connerkward`, so installs are `<skill>@connerkward`.
 Each image lives in its own skill repo's `docs/` and is linked here.
 
 ### lookdev — tune AI output by eye in a live studio
-[repo](https://github.com/connerkward/lookdev-studio-skill)
+A real studio instance: a depth map extruded into a machinable XPS bas-relief, with live
+controls for plaque size, board thickness, depth remap, material, lighting, and a sheet-layout
+visualizer. You drag, it re-renders — you never guess a number. [repo](https://github.com/connerkward/lookdev-studio-skill)
 
-![lookdev halftone studio: input vs live-rendered output with sliders](https://raw.githubusercontent.com/connerkward/lookdev-studio-skill/main/docs/lookdev.png)
+![lookdev: bas-relief XPS extrusion studio rendering a depth map into a 3D relief, with a full control panel and ViewCube](https://raw.githubusercontent.com/connerkward/lookdev-studio-skill/main/docs/lookdev.png)
 
 ### deterministic-design — render the UI and *measure* it
-Real `layout-audit.js` overlay: contrast ratios, sub-44px tap targets, spacing-rhythm
-outliers, alignment near-miss. [repo](https://github.com/connerkward/deterministic-design-skill)
+The thesis figure: balance is a measurable quantity, not a vibe. Placed weights pull a computed
+centroid (◉) off the frame's optical center (✛); the readout shows the exact offset. The model
+*measures* the layout instead of asking an LLM to eyeball it. [repo](https://github.com/connerkward/deterministic-design-skill)
 
-![deterministic-design annotated layout audit](https://raw.githubusercontent.com/connerkward/deterministic-design-skill/main/docs/audit.png)
+![deterministic-design: an interactive frame where weighted blobs pull a measured centroid dot away from the optical-center target, with a numeric balance-offset readout](https://raw.githubusercontent.com/connerkward/deterministic-design-skill/main/docs/balance-explorable.png)
 
 ### lookdev-auto — a vision model rates rendered variants in a loop
-Labeled variant contact sheet (params burned on, judge scores, best highlighted).
-[repo](https://github.com/connerkward/lookdev-auto-skill)
+N labeled variants render into one contact sheet (params burned on each cell), a vision model
+scores them and suggests new values, and the best is applied — the eye is automated, you run the
+loop. [repo](https://github.com/connerkward/lookdev-auto-skill)
 
 ![lookdev-auto labeled variant contact sheet](https://raw.githubusercontent.com/connerkward/lookdev-auto-skill/main/docs/contact-sheet.png)
 
 ### screenstudio-alternative — headless Screen Studio pipeline
-[repo](https://github.com/connerkward/screenstudio-alternative-skill)
+Auto speed-up of idle, auto-zoom on click clusters, keystroke overlays, a smoothed synthetic
+cursor, and 9:16 vertical export — all from the CLI, no GUI, no subscription. [repo](https://github.com/connerkward/screenstudio-alternative-skill)
 
 ![screenstudio-alternative pipeline demo](https://raw.githubusercontent.com/connerkward/screenstudio-alternative-skill/main/docs/pipeline.gif)
 
 ### macos-screen-recorder — CLI capture with system audio, no driver
-[repo](https://github.com/connerkward/macos-screen-recorder-system-audio)
+Records the main display plus system audio via ScreenCaptureKit — the one gap QuickTime and
+`screencapture -v` can't fill without a loopback driver. No BlackHole, no sudo, one Swift binary. [repo](https://github.com/connerkward/macos-screen-recorder-system-audio)
 
 ![macos-screen-recorder CLI usage](https://raw.githubusercontent.com/connerkward/macos-screen-recorder-system-audio/main/docs/usage.png)
 
-### ckw-design — frontend design pass, before / after
-[repo](https://github.com/connerkward/ckw-design-skill)
-
-![ckw-design before and after](https://raw.githubusercontent.com/connerkward/ckw-design-skill/main/docs/before-after.png)
-
 ### web-media-getter — one query across free media APIs
-[repo](https://github.com/connerkward/web-media-getter-skill)
+One search fans out across free image/video/GIF providers (stock, archival, and GIF engines) and
+returns license-tagged results with attribution — the retrieval peer to local search and generation. [repo](https://github.com/connerkward/web-media-getter-skill)
 
 ![web-media-getter example output](https://raw.githubusercontent.com/connerkward/web-media-getter-skill/main/docs/example-output.png)
 
