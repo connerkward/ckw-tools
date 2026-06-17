@@ -91,6 +91,6 @@ a plugin *and* registers the MCP server in one step. [repo](https://github.com/c
 ### muser — find images by describing them
 Local-first semantic image search: index folders of images, then query them in natural language ("sunset over water", "a login screen with a blue button"). On-device SigLIP/CLIP embeddings + LanceDB — fully offline, no API keys. Ships as a CLI, an MCP server with an interactive results gallery, and a skill. [repo](https://github.com/connerkward/Muser)
 
-![muser: semantic image-search web UI — the query "sunset over water" returning a ranked grid of matching images](https://raw.githubusercontent.com/connerkward/Muser/main/docs/screenshots/search.jpg)
+![muser: live demo — typing "sunset over water" then "iridescent abstract gradient", each returning a ranked on-device semantic-search grid](https://raw.githubusercontent.com/connerkward/Muser/main/docs/demo.gif)
 
 MIT © Conner K Ward
