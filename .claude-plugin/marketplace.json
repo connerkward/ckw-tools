@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
   "name": "connerkward",
-  "description": "Conner K. Ward's Claude Code tools \u2014 human-in-the-loop studios, deterministic design tooling, and MCP servers.",
+  "description": "Conner K. Ward's Claude Code skills and MCP servers \u2014 human-in-the-loop studios, deterministic design tooling, and personal-data search.",
   "owner": {
     "name": "Conner K Ward",
     "url": "https://github.com/connerkward"

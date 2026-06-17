@@ -1,28 +1,28 @@
-![ckw-tools — a Claude Code plugin marketplace of human-in-the-loop studios, deterministic design tooling, and MCP servers by Conner K. Ward](https://raw.githubusercontent.com/connerkward/ckw-tools/main/docs/banner.png)
+![ckw-skills — a Claude Code plugin marketplace of human-in-the-loop studios, deterministic design tooling, and MCP servers by Conner K. Ward](https://raw.githubusercontent.com/connerkward/ckw-skills/main/docs/banner.png)
 
-# ckw-tools
+# ckw-skills
 
-A Claude Code **plugin marketplace** of tools by Conner K. Ward — skills **and**
-MCP servers — built around three ideas: **human-in-the-loop** generative studios,
-**determinism over AI randomness**, and **traversing your own mass of data**.
+A Claude Code **plugin marketplace** of skills **and MCP servers** by Conner K. Ward,
+built around three ideas: **human-in-the-loop** generative studios, **determinism over
+AI randomness**, and **traversing your own mass of data**.
 
-This repo is an *index*, not the tools themselves — it ships a single
+This repo is an *index*, not the skills themselves — it ships a single
 [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) manifest that
-the `/plugin marketplace add` command reads to resolve and install each tool from
+the `/plugin marketplace add` command reads to resolve and install each one from
 its own repo (linked below).
 
 ## Install
 
 ```
-/plugin marketplace add connerkward/ckw-tools
+/plugin marketplace add connerkward/ckw-skills
 /plugin install lookdev@connerkward
 ```
 
-The marketplace name stays `connerkward`, so installs are `<tool>@connerkward`.
+The marketplace name stays `connerkward`, so installs are `<name>@connerkward`.
 
-## Tools
+## Skills & servers
 
-| Tool | What it is | Repo |
+| Name | What it is | Repo |
 |---|---|---|
 | **lookdev** | Human-in-the-loop web studio to tune AI output by eye | [lookdev-studio-skill](https://github.com/connerkward/lookdev-studio-skill) |
 | **deterministic-design** | Render + *measure* your UI (layout audit + vision-judged usability) | [deterministic-design-skill](https://github.com/connerkward/deterministic-design-skill) |
